@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Minimal base styles for the MVP */
+body {
+  /* Light gray background, consistent with Tailwind's gray-100 */
+  background-color: #f3f4f6;
+  /* Apply Tailwind's default font stack for consistency */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
