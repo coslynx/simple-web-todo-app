@@ -1,0 +1,9 @@
+{
+  "_comment": "This file stores custom command aliases for developer convenience. Do NOT store secrets here; use .env instead.",
+  "clean:build": "rm -rf build",
+  "check:all": "npm run check && npm run lint",
+  "fix:lint": "eslint . --fix",
+  "fix:format": "npm run format",
+  "fix:all": "npm run format && eslint . --fix",
+  "install:clean": "rm -rf node_modules && rm -f package-lock.json && npm install"
+}
